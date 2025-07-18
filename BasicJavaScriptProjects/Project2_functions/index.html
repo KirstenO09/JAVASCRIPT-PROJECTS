@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic JavaScript Project</title>
+    <script src="JS/main.js"></script>
+</head>
+
+<body>
+    <p>Below is an onlick button attribute</p>
+
+    <button onclick="document.getElementById('demo').innerHTML=Date()">Display Time</button> <!--This button, when clicked, will 
+    display the current date and time in the paragraph with id "demo".-->
+    <p id="demo"></p> <!-- This paragraph will be updated with the current date and time when the button is clicked. -->
+
+    <p id="Concatenate" onclick="concatenate()">Click to Concatenate.</p><!-- This paragraph will trigger the concatenate 
+    function when clicked, which concatenates two strings and displays the result. -->
+
+</body>
+
+</html>
