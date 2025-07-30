@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic JavaScript Project</title>
+
+</head>
+
+<body>
+    <p id="add"></p> <!--This displays the result of adding two numbers-->
+    <p id="subtract"></p><!--This displays the result of subtracting two numbers-->
+    <p id="message" onclick="Time_of_Day()">Click here to display time of day.</p> <!--This displays a message that states the time of day-->
+    
+    <p>Is your favorite flavor Chocolate(1), Vanilla(2), or Strawberry(3)?</p>
+    <input id="flavor" value="" title="Enter your favorite ice cream flavor" placeholder="e.g., 1, 2, 3" />  
+    <!--This asks the user to enter their favorite ice cream flavor by typining 1,2, or 3-->
+    <p id="Ice_cream"></p><!--This displays the user's favorite ice cream flavor-->
+    <button onclick="icecream_flavor()">Click here</button> <!--This button calls the icecream_flavor function when clicked-->
+
+    <p>How old are you?</p>
+    <input id="age" value="" title="Enter your age:" placeholder="e.g., 18" /> <!--This asks the user to enter their age-->
+    <p id="Driver"></p> <!--This displays a message that states whether the user is old enough to drive-->
+    <button onclick="Driver_age()">Click here</button><!--This button calls the Driver_age function when clicked-->
+    
+    
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
