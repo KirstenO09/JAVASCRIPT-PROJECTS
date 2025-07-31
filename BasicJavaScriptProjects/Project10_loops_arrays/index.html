@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic JavaScript Loops</title>
+    <script src="JS/main.js" defer></script>
+
+</head>
+
+<body>
+    <p id="Loop"></p> <!--This displays the result of the loop operation-->
+    <button onclick="Call_Loop()">Click here to run the loop</button>
+    <!--This button calls the Call_Loop function when clicked-->
+
+    <p id="List_of_Instruments"></p> <!--This displays a list of musical instruments-->
+    <button onclick="for_Loop()">Click here to display the list of instruments</button>
+    <!--This button calls the for_Loop function when clicked-->
+
+    <p id="Array"></p> <!--This displays the result of the array operation-->
+    <button onclick="Array_Function()">Click here to run the array function</button>
+    <!--This button calls the Array_Function when clicked-->
+
+    <p id="Constant"></p> <!--This displays the result of the constant operation-->
+    <button onclick="constant_function()">Click here to run the constant function</button>
+    <!--This button calls the Constant_Function when clicked-->
+
+    <p id="Car_Object"></p> <!--This displays the result of the car object operation-->
+    
+
+    <script>
+        document.write("<br>");
+        document.write("<br>");
+        var X = 82;
+        document.write(X); // Write the value of X to the document
+        {
+            let X = 33; // Declare a block-scoped variable X
+            document.write("<br>" + X); // Write the value of the block-scoped variable X to the document
+        } document.write("<br>" + X); // Write the value of the outer variable X (82) to the document
+    </script>
+
+</body>
+
+
+</html>
