@@ -13,12 +13,14 @@ A responsive calculator that performs basic arithmetic operations.
 - Keyboard support  
 
 ### 🍕 Pizza Menu
-A simple static pizza menu built with HTML, CSS, and JavaScript.
+An interactive pizza ordering application built with HTML, CSS, and JavaScript.
 
 **Features:**
-- Interactive menu layout  
-- Dynamic price display (optional)  
-- Clean, responsive design  
+- Choose pizza size (Personal to Extra Large)
+- Select multiple toppings (vegetables and meats)
+- Dynamic price calculation
+- Order receipt display
+- Responsive layout for different screen sizes
 
 ### ❌⭕ Tic Tac Toe
 A classic two-player game using JavaScript logic and DOM manipulation.
@@ -32,17 +34,20 @@ A classic two-player game using JavaScript logic and DOM manipulation.
 A basic task management app to track your daily to-dos.
 
 **Features:**
-- Add and delete tasks  
-- Mark tasks as complete  
-- Optional local storage support  
+- Add and delete tasks    
+- local storage support  
 
 ### 🧪 Basic JavaScript Demos
 A collection of mini-projects and code snippets demonstrating core JavaScript concepts.
 
 **Examples:**
-- Loops and conditionals  
-- Event listeners  
-- Array and object manipulation  
+- Control flow (loops, conditionals)
+- Event handling
+- Functions and scope
+- Data types and type coercion
+- Arrays, objects, and strings
+- Timing functions
+- DOM manipulation
 
 ## 🧰 Tech Stack
 
@@ -61,20 +66,18 @@ cd your-repo-name
 
 Then open the desired project folder and launch `index.html` in your browser.
 
-## 📂 Folder Structure
+## 📂 Folder Paths for Notable Projects
 
 ```
-/Calculator
-/PizzaMenu
+/Advanced JavaScript Projects/Calculator
+/BasicJavaScriptProjects
+/PizzaProject
 /TicTacToe
 /TodoApp
-/JS-Demos
 ```
-
+*These are just the notable projects, you are welcome to explore other files!*
 ## 🙌 Acknowledgments
 
 These projects were built as part of my learning journey in web development. Feedback and suggestions are always welcome!
 
 ---
-
-Let me know if you'd like to add GitHub badges, screenshots, or deployment links for each project!
