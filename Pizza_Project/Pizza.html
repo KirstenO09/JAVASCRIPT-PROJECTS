@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+    <meta charset="utf-8">
     <title>Pizza Drill Demo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="Pizza_JavaScript/Pizza.js" defer></script>
@@ -11,37 +11,38 @@
 
 <body>
     <div id="menuBG">
-        <h1 style="margin: 0 0px 0 20px;">Pizza Drill Tutorial</h1>
+        <h1>Pizza Drill Tutorial</h1>
+        <h2>You get 1 free topping!</h2>
         <input id="btnorder" type="button" onclick="getReceipt()" value="Place Order">
         <form id="frmMenu">
             <div class="row">
             <div class="menu left">
                 <h3>Size:</h3>
-                <input class="size" type="radio" name="Size" value="Personal Pizza" title="Personal Pizza">Personal Pizza</label><br>
-                <input class="size" type="radio" name="Size" value="Small Pizza" title="Small Pizza">Small Pizza<br>
-                <input class="size" type="radio" name="Size" value="Medium Pizza" title="Medium Pizza">Medium Pizza<br>
-                <input class="size" type="radio" name="Size" value="Large Pizza" title="Large Pizza" checked>Large Pizza<br>
-                <input class="size" type="radio" name="Size" value="Extra Large Pizza" title="Extra Large Pizza">Extra Large Pizza<br>
+                <input class="size" type="radio" name="Size" value="Personal Pizza" title="Personal Pizza">Personal Pizza <b>$6.00</b><br>
+                <input class="size" type="radio" name="Size" value="Small Pizza" title="Small Pizza">Small Pizza <b>$8.00</b><br>
+                <input class="size" type="radio" name="Size" value="Medium Pizza" title="Medium Pizza">Medium Pizza <b>$10.00</b><br>
+                <input class="size" type="radio" name="Size" value="Large Pizza" title="Large Pizza" checked>Large Pizza <b>$14.00</b><br>
+                <input class="size" type="radio" name="Size" value="Extra Large Pizza" title="Extra Large Pizza">Extra Large Pizza <b>$16.00</b><br>
             </div>
 
             <div class="menu center">
                 <h3>Vegetables:</h3>
-                <input class="toppings" type="checkbox" name="Topping" value="Mushrooms" title="Mushrooms">Mushrooms<br>
-                <input class="toppings" type="checkbox" name="Topping" value="Onions" title="Onions">Onions<br>
-                <input class="toppings" type="checkbox" name="Topping" value="Tomatoes" title="Tomatoes">Tomatoes<br>
-                <input class="toppings" type="checkbox" name="Topping" value="Olives" title="Olives">Olives<br>
-                <input class="toppings" type="checkbox" name="Topping" value="Green Peppers" title="Green Peppers">Green Peppers<br>
+                <input class="toppings" type="checkbox" name="Topping" value="Mushrooms" title="Mushrooms">Mushrooms <b>$1.00</b><br>
+                <input class="toppings" type="checkbox" name="Topping" value="Onions" title="Onions">Onions <b>$1.00</b><br>
+                <input class="toppings" type="checkbox" name="Topping" value="Tomatoes" title="Tomatoes">Tomatoes <b>$1.00</b><br>
+                <input class="toppings" type="checkbox" name="Topping" value="Olives" title="Olives">Olives <b>$1.00</b><br>
+                <input class="toppings" type="checkbox" name="Topping" value="Green Peppers" title="Green Peppers">Green Peppers <b>$1.00</b><br>
             </div>
 
             <div class="menu right">
                 <h3>Meats:</h3>
-                <input class="toppings" type="checkbox" name="Topping" value="Pepperoni" title="Pepperoni">Pepperoni<br>
-                <input class="toppings" type="checkbox" name="Topping" value="Sausage" title="Sausage">Sausage<br>
-                <input class="toppings" type="checkbox" name="Topping" value="Canadian Bacon" title="Canadian Bacon">Canadian Bacon<br>
-                <input class="toppings" type="checkbox" name="Topping" value="Ground Beef" title="Ground Beef">Ground Beef<br>
-                <input class="toppings" type="checkbox" name="Topping" value="Anchovy" title="Anchovy">Anchovy<br>
-                <input class="toppings" type="checkbox" name="Topping" value="Chicken" title="Chicken">Chicken<br>
-                <input class="toppings" type="checkbox" name="Topping" value="Salami" title="Salami">Salami<br>
+                <input class="toppings" type="checkbox" name="Topping" value="Pepperoni" title="Pepperoni">Pepperoni <b>$1.00</b><br>
+                <input class="toppings" type="checkbox" name="Topping" value="Sausage" title="Sausage">Sausage <b>$1.00</b><br>
+                <input class="toppings" type="checkbox" name="Topping" value="Canadian Bacon" title="Canadian Bacon">Canadian Bacon <b>$1.00</b><br>
+                <input class="toppings" type="checkbox" name="Topping" value="Ground Beef" title="Ground Beef">Ground Beef <b>$1.00</b><br>
+                <input class="toppings" type="checkbox" name="Topping" value="Anchovy" title="Anchovy">Anchovy <b>$1.00</b><br>
+                <input class="toppings" type="checkbox" name="Topping" value="Chicken" title="Chicken">Chicken <b>$1.00</b><br>
+                <input class="toppings" type="checkbox" name="Topping" value="Salami" title="Salami">Salami <b>$1.00</b><br>
             </div>
             </div>
 

@@ -46,6 +46,11 @@ h1{
     font-family: 'Cambria', Georgia, Times, 'Times New Roman', serif;
     color: rgb(70, 73, 77);
     text-align: center;
+    margin: 0 0px 0 20px;
+}
+h2{
+    text-align: center;
+    margin: 30px 0px 60px 20px;
 }
 
 h3{
@@ -54,7 +59,7 @@ h3{
 }
 
 div{
-    margin: 10px 0px 0px 100px;
+    margin-right: 100px;
     font-family: Georgia,'Times New Roman', Times, serif;
     color: black;
 }
@@ -62,7 +67,7 @@ div{
 .row{
     display: flex;
     justify-content: center;
-    margin: 25px auto;
+    margin: 35px;
 }
 
 @media (min-width: 992px) {
@@ -82,8 +87,12 @@ div{
 
 .right{
     flex: 0 0 auto;
-    width: 200px;
+    width: 0px;
     height: 200px;
-    float: left;
+    float: right;
 }
+}
+
+.menu {
+    white-space: nowrap;
 }
